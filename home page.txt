@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+            <script type="text/javascript">
+                window.confirm('Press ok to view HOME page')
+                window.alert('please fill all the required details')
+
+                </script>
+        <body style="background-color: rgb(243, 145, 109); font-size: large;">
+      <img src="C:\Users\ACER\Desktop\Marystella. Nakka\cmpny.gif"height="400px" width="100%">
+                    <form action="/action_page.php">
+                        <fieldset>
+                            <label for="uname">Username<b></b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+                           <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+                            <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me </label><br><br>
+      
+                            
+        </div>
+                        <legend><h1>Personal details:</h1></legend>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="uname"><b>Username</b></label>
+                        <label for="birthday">Birthday:</label> <input type="date" id="birthday" name="birthday"><br><br>
+                        <button onclick="document.location='https:google.com'">Submit</button>
+                        <button type="reset" >cancle</button>
+                        </fieldset>
+                        
+                        </form> <br>
+
+  
+
+            </style>
+        </body>
+    </head>
+</html>

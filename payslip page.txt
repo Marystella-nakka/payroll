@@ -1,0 +1,29 @@
+<html>
+<head>
+  <body>
+    <p id="demo"><a href=""><img onclick="getLocation();" src="C:\Users\ACER\Desktop\Marystella. Nakka\ctspay.jpg" height="300px" width="100%"  ></a>
+  </body>
+</head>
+<h1>THE PAYSLIP<i><br><b></b></h1>
+<head>
+  <body>
+        <label for="Employeename">Employeename:</label>
+    <input type="text" id="Employeename" name="Employeename">
+    <label for="Em:id">Employee id:</label>
+    <input type="text" id="Em:id" name="Em:id"><br><br>
+    <label for="paylist">Paylist:</label>
+    <input type="paylist" id="paylist" name="Pay">
+    <label for="dues">Paydues:</label>
+    <input type="paydue" id="dues" name="dues"><br><br>
+    <label for="bankaccont">Account Numb:</label>
+    <input type="Account Numb" id="account" name="account">
+    <label for="ifsc">IFSC code:</label>
+    <input type="IFSC CODE" id="ifsc" name="ifsc"><br><br>
+    <label for="contact">primary number:</label>
+    <input type="contact" id="contact" name="ifsc"><br><br>
+    <label for="alt">alternative number:</label>
+    <input type="IFSC CODE" id="ifsc" name="number"><br>
+    <br>
+    <button onclick="document.location='slip.html'">PRESS HERE to view your <b>PAYSLIP OF THIS MONTH</b></button>
+  </body>
+  </head>

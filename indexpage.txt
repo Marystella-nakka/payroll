@@ -1,0 +1,63 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!DOCTYPE html>
+<html>
+    <head>
+      <body style="background-color: rgb(250, 246, 246);"></body>
+        <p id="demo"><a href=""><img onclick="getLocation();" src="C:\Users\ACER\Desktop\Marystella. Nakka\Cognizant_Technology_Solutions_Corp_Logo.png" height="200px" width="100%"  ></a>
+            </p>
+
+            <script>
+            var x = document.getElementById("demo");
+            
+            function getLocation() {
+              if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+              } else { 
+                x.innerHTML = "Geolocation is not supported by this browser"
+             
+            }
+            }
+            
+            function showPosition(position) {
+              x.innerHTML = "Latitude: " + position.coords.latitude + 
+              "<br>Longitude: " + position.coords.longitude;
+            }
+            </script>
+              </body> 
+              <form>
+                <input type="number" name="ID" placeholder="employee id "> </input>
+                
+                
+            
+                
+              </form>
+            
+    </head>
+    
+    <p id="demo"><a href="C:\Users\ACER\Desktop\Marystella. Nakka\home.html"><img onclick="getLocation();" src="C:\Users\ACER\Desktop\Marystella. Nakka\homegif.gif" height="100px" width="100px"  ></a> <a class="active" href="home.html";>home</a>
+   <p id="demo"><a href=""><img onclick="getLocation();" src="C:\Users\ACER\Desktop\Marystella. Nakka\employeegf.gif" height="100px" width="100px"  ><a href="employee.html">Employee</a>
+    <p id="demo"><a href=""><img onclick="getLocation();" src="C:\Users\ACER\Desktop\Marystella. Nakka\unnamed.gif" height="100px" width="100px"  >    <a href="payslip.html">Payslip generation</a>
+   <p id="demo"><a href=""><img onclick="getLocation();" src="C:\Users\ACER\Desktop\Marystella. Nakka\contactgf.gif" height="100px" width="100px"  >  <a href="contact.html">Contact us</a>
+            </p>
+            </div> 
+          <div>
+  
+            </script>
+          
+            
+    </head>
+    <body>
+          
+<button onclick="getLocation();">Get location</button>
+</html>
